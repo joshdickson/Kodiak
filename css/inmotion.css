@@ -1,0 +1,271 @@
+/*
+ * InMotion.css
+ * Joshua Dickson for Autoliv North America.
+ * All rights reserved.
+ */
+
+/******************** Page Styles **********************/
+div#page-wrapper {
+	width: 1024px;
+	height: 670px;
+	background-color: #2f3031;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.light {
+	font-weight: 300;
+}
+
+/*********************  Header  ***********************/
+div#header {
+	height: 40px;
+	background-color: #202522;
+	position: relative;
+	z-index: 100;
+}
+
+img#autoliv-logo {
+	float: left;
+	height: 18px;
+	padding-top: 9px;
+	padding-left: 10px;
+	opacity: 0.93;
+}
+
+h3#inmotion-logo {
+	padding-left: 480px;
+	position: absolute;
+	font-size: 25px;
+	color: #f3f0f0;
+	letter-spacing: 1px;
+	margin-top: 5.5px;
+}
+
+p#date-time {
+	float: right;
+	color: #f3f0f0;
+	font-size: 19px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+
+/*************  Vehicle Sensor Activity  ************/
+
+div#left-column-wrapper {
+	width: 360px;
+	float: left;
+}
+
+div#sensor-activity {
+	width: 360px;
+	text-transform: uppercase;
+	background-color: #f1f0ef;
+	height: 400px;
+	float: left;
+}
+
+h5#sensor-activity-title {
+	letter-spacing: 1.5px;
+	font-size: 20px;
+	color: #5b5e5f;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+
+canvas#sensor-activity-canvas {
+	margin-left: 10px;
+	margin-top: -10px;
+}
+
+#non-vehicle-loc-sensors {
+	padding-left: 42px;
+	padding-top: 5px;
+}
+
+ul#non-vehicle-loc-sensors li {
+	display: inline-block;
+	border-radius: 60px;
+	text-align: center;
+	width: 38px;
+	height: 38px;
+	margin-left: 8px;
+	color: #d24f4f;
+}
+
+
+
+ul#non-vehicle-loc-sensors li p {
+	padding-top: 11px;
+}
+
+.sensor-icon-inactive {
+	border: 2px solid #d24f4f;
+	color: #d24f4f;
+}
+
+.sensor-icon-inactive-p {
+	color: #d24f4f;
+}
+
+.sensor-icon-active {
+	border: 2px solid #88c09d;
+	color: #88c09d;
+}
+
+.sensor-icon-active-p {
+	color: #88c09d;
+}
+
+#page-wrapper {
+	overflow: hidden;
+}
+
+
+#right-column {
+	position: relative;
+}
+
+#drawImage {
+	z-index: 5;
+	top: -30px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#e-class-static {
+	z-index: 200;
+	margin: 171.5px 0 0 292px;
+	position: absolute;
+	height: 155px;
+	opacity: 0.92;
+}
+
+#additional-vehicle-info {
+	z-index: 100;
+	position: absolute;
+}
+
+
+
+/**************** COMMAND BUTTONS ******************/
+
+
+div#command-buttons {
+	background-color: #969999;
+	width: 360px;
+	height: 230px;
+	display: inline-block;
+	float: left;
+}
+
+ul#command-button-list {
+	padding-top: 15px;
+}
+
+
+
+ul#command-button-list li {
+	height: 59px;
+	width: 330px;
+	background-color: #88c09d;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+ul#command-button-list li h5 {
+	font-size: 18px;
+	color: #f2f1ef;
+	font-weight: 600;
+	padding-left: 14px;
+	padding-top: 21px;
+	display: inline-block;
+}
+
+.event-counter {
+	margin-top: 13px;
+	margin-right: 12px;
+	float: right;
+	padding: 9px 22px;
+	padding-top: 6px;
+	background-color: #649175;
+	font-weight: 600;
+	font-size: 18px;
+	color: #f2f1ef;
+	border-radius: 10px;
+}
+
+.redording-button-icon {
+	height: 26px;
+	width: 26px;
+	padding-top: 17px;
+	padding-left: 14px;
+	float: left;
+}
+
+#ring-buffer-recording-button:focus {
+	opacity: 0.5;
+}
+
+
+
+/*************************** DISPLAY ***********************/
+canvas#head-up-display {
+	/* background-color: #1c1d1e; */
+	/* border: 1px solid red; */
+	width: 500px;
+	height: 500px;
+	/* float: right; */
+	margin-right: 76px;
+	margin-top: 20px;
+}
+
+div#right-column {
+	float: left;
+}
+
+div#additional-vehicle-info {
+	margin-top: 560px;
+	margin-left: 90px;
+	background-color: #dcdfe3;
+	border-radius: 15px;
+	width: 500px;
+	height: 50px;
+	overflow: visible;
+}
+
+h4#vehicle-mph {
+	font-size: 24px;
+	padding-top: 11px;
+	padding-left: 12px;
+	align: center;
+	text-align: center;
+	
+}
+
+/* h5#gps-data {
+	float: right;
+	font-size: 18px;
+	padding-right: 12px;
+	padding-top: 15px;
+} */
+
+
+
+
+
+
+
+
+
